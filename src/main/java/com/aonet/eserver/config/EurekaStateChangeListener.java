@@ -1,16 +1,12 @@
 package com.aonet.eserver.config;
 
 import com.aonet.eserver.bean.EurekaInstanceConfigBeans;
-import com.aonet.eserver.util.SpringUtil;
 import com.netflix.appinfo.InstanceInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.netflix.eureka.server.event.*;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.event.EventListener;
-import org.springframework.core.env.AbstractEnvironment;
-import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 
 @Component
